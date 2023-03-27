@@ -21,6 +21,7 @@
 | `-O`          | `nmap -O <target>`                             | Remote OS detection option                                                                                                                                                       |
 
 <br>
+
 **Ports Specific**
 
 | Option        | Command                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -32,6 +33,7 @@
 | `-smtp,https` | `nmap -smtp,https <target>`                        | Scan for specific protocols. In this example, the command would scan for SMTP and HTTPS services.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 <br>
+
 **Time Options**
 
 | Option       | Command                                           | Description                                                                                                                                                                    |
@@ -44,6 +46,7 @@
 
 
 <br>
+
 **Scripts**
 
 | Option                                  | Command                                             | Description                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -57,6 +60,7 @@
 | `ls -al /usr/share/nmap/scripts/` (CLI) | `ls -al /usr/share/nmap/scripts/`                  | Lists all the default scripts included with Nmap. This command can be executed in a terminal to view the available scripts, and can be used as a reference when specifying scripts to run during scanning.                                                                                                                              |
 
 <br>
+
 **Miscellaneous**
 
 | Option                            | Command                                           | Description                                                                                                                                                                                                                                                                   |
