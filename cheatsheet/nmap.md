@@ -10,6 +10,7 @@
 | Ping scan                           | `nmap -sP <target>`                          | Scans for hosts that respond to ping requests          |
 
 <br>
+
 **Version Detection**
 
 | Option        | Command                                        | Description                                                                                                                                                                       |
