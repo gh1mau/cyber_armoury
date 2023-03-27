@@ -9,6 +9,7 @@
 | UDP port scan                       | `nmap -sU <target>`                          | Scans for open ports using UDP packets                 |
 | Ping scan                           | `nmap -sP <target>`                          | Scans for hosts that respond to ping requests          |
 
+<br>
 **Version Detection**
 
 | Option        | Command                                        | Description                                                                                                                                                                       |
@@ -18,7 +19,7 @@
 | `-A`          | `nmap -A <target>`                             | Aggressive scan option that includes OS detection, version detection, script scanning, and traceroute. Can create noise. Requests may be caught by the firewall if they have one. |
 | `-O`          | `nmap -O <target>`                             | Remote OS detection option                                                                                                                                                       |
 
-
+<br>
 **Ports Specific**
 
 | Option        | Command                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -29,7 +30,7 @@
 | `-p-`         | `nmap -p- <target>`                                | Scan all ports (65535 ports by default, but may take longer and create more noise). However, sometimes clever administrators may hide important information on less common ports.                                                                                                                                                                                                                                                                                                                                                                                                |
 | `-smtp,https` | `nmap -smtp,https <target>`                        | Scan for specific protocols. In this example, the command would scan for SMTP and HTTPS services.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
-
+<br>
 **Time Options**
 
 | Option       | Command                                           | Description                                                                                                                                                                    |
@@ -40,6 +41,8 @@
 | `-T3`        | `nmap -T3 <target>`                              | Aggressive scan option that sends packets even more frequently than the timely scan option. May create more noise and be detected by firewalls or intrusion detection systems. |
 | `-T4`        | `nmap -T4 <target>`                              | Very aggressive scan option that sends packets extremely frequently. May create a lot of noise and may be detected by firewalls or intrusion detection systems.             |
 
+
+<br>
 **Scripts**
 
 | Option                                  | Command                                             | Description                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -52,7 +55,7 @@
 | `nmap --script-updatedb`                | `nmap --script-updatedb`                           | Updates the Nmap script database to include the latest scripts from the Nmap community. This can improve scanning performance and accuracy, as well as ensure that the latest security vulnerabilities are being scanned for. Note that this command may require root privileges. |
 | `ls -al /usr/share/nmap/scripts/` (CLI) | `ls -al /usr/share/nmap/scripts/`                  | Lists all the default scripts included with Nmap. This command can be executed in a terminal to view the available scripts, and can be used as a reference when specifying scripts to run during scanning.                                                                                                                              |
 
-
+<br>
 **Miscellaneous**
 
 | Option                            | Command                                           | Description                                                                                                                                                                                                                                                                   |
